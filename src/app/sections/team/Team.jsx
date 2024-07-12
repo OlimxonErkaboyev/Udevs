@@ -42,7 +42,7 @@ function Team() {
           >
             <p className="team-wrapper__start-desc">
               For each project, we form a team that includes a project manager,
-              business analyst, UI / UX designer, DevOps, QA engineer, backend
+              business analyst, UI / UX designer, DevOps, QA engineer backend
               and front-end developers.
             </p>
             <p className="team-wrapper__start-num" data-aos="fade-up">
