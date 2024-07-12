@@ -12,6 +12,7 @@ import {
   down_arrow,
   smsuz,
 } from "../../assets/images/navbar";
+import { insta, twitter, youtube } from "../../assets/images/socials";
 
 export const data = {
   navbar: [
@@ -121,6 +122,23 @@ export const data = {
     {
       title: "Command",
       href: "#command",
+    },
+  ],
+  socials: [
+    {
+      title: "Instagram",
+      link: "https://www.instagram.com",
+      icon: insta,
+    },
+    {
+      title: "Twitter",
+      link: "https://www.x.com",
+      icon: twitter,
+    },
+    {
+      title: "You Tube",
+      link: "https://www.youtube.com",
+      icon: youtube,
     },
   ],
 };

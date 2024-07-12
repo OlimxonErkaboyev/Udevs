@@ -1,18 +1,19 @@
 import React from "react";
 import "./burger-menu.scss";
-import { data } from "/src/globals/data/navbar.js";
+import { data } from "/src/globals/data/navbar";
 import { HeaderLogo } from "../../../assets/images/icons";
 
 const BurgerMenu = ({ openBurgerMenu, setOpenBurgerMenu }) => {
-  const { burger } = data;
-  console.log(openBurgerMenu);
+  const { burger, socials } = data;
   return (
     <>
       <button
         onClick={() => setOpenBurgerMenu(true)}
         className={` ${openBurgerMenu ? "d-none" : "open-burger-btn"}`}
       >
-        asdas
+        <span className="burger-open-icon"></span>
+        <span className="burger-open-icon"></span>
+        <span className="burger-open-icon"></span>
       </button>
       <div className={` ${openBurgerMenu ? "open-menu" : "burger-menu"}`}>
         <div className="burger-heder">
@@ -29,7 +30,8 @@ const BurgerMenu = ({ openBurgerMenu, setOpenBurgerMenu }) => {
             onClick={() => setOpenBurgerMenu(false)}
             className="close-burger-btn"
           >
-            close
+            <span className="burger-close-icon one"></span>
+            <span className="burger-close-icon two"></span>
           </button>
         </div>
         <ul className="burger-contact__list">
@@ -52,6 +54,17 @@ const BurgerMenu = ({ openBurgerMenu, setOpenBurgerMenu }) => {
           >
             Contact
           </a>
+        </div>
+        <div className="burger-socials">
+          <ul className="burger-social-list">
+            {socials.map((item, index) => (
+              <li className="burger-social__item" key={index}>
+                <a href={item.link} target="_blank">
+                  {item.icon}
+                </a>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </>
