@@ -1,0 +1,11 @@
+export { default as designImg } from "./ux-ui-design-img.png";
+export { default as ux } from "./ux.svg";
+export { default as ui } from "./ui.svg";
+export { default as prototype } from "./protytype.svg";
+export { default as mDesign } from "./m-design.svg";
+export { default as wDesign } from "./w-design.svg";
+export { default as aDesign } from "./a-design.svg";
+export { default as figma } from "./figma.svg";
+export { default as sketch } from "./sketch.svg";
+export { default as lottie } from "./lottie.svg";
+export { default as illustrator } from "./ilustrator.svg";

@@ -14,7 +14,7 @@ function Header() {
           data-aos="fade-down"
           data-aos-duration="500"
         >
-          <a className="site-header__logo-link" href="../../index.jsx">
+          <a className="site-header__logo-link" href="/">
             <img
               className="site-header__logo"
               src={HeaderLogo}

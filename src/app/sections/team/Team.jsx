@@ -45,9 +45,9 @@ function Team() {
               business analyst, UI / UX designer, DevOps, QA engineer backend
               and front-end developers.
             </p>
-            <p className="team-wrapper__start-num" data-aos="fade-up">
+            <div className="team-wrapper__start-num" data-aos="fade-up">
               <Number n={100} />
-            </p>
+            </div>
             <p className="team-wrapper__start-text">Dedicated team</p>
           </div>
           <div className="team-wrapper__end">

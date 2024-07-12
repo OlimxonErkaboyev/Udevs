@@ -1,7 +1,7 @@
 import { useLocation } from "react-router-dom";
 import Header from "../app/sections/common/header/header";
 import AppRoutes from "../routing/app-routes";
-import '../index.scss'
+import "../index.scss";
 
 export default function RootLayout() {
   const currentpath = useLocation().pathname;
