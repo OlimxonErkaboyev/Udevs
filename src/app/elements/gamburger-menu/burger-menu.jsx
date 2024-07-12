@@ -2,19 +2,12 @@ import React from "react";
 import "./burger-menu.scss";
 import { data } from "/src/globals/data/navbar";
 import { HeaderLogo } from "../../../assets/images/icons";
+import { tools } from "../../../globals/data/tools";
 
 const BurgerMenu = ({ openBurgerMenu, setOpenBurgerMenu }) => {
-  const { burger, socials } = data;
+  const { burger } = data;
   return (
     <>
-      <button
-        onClick={() => setOpenBurgerMenu(true)}
-        className={` ${openBurgerMenu ? "d-none" : "open-burger-btn"}`}
-      >
-        <span className="burger-open-icon"></span>
-        <span className="burger-open-icon"></span>
-        <span className="burger-open-icon"></span>
-      </button>
       <div className={` ${openBurgerMenu ? "open-menu" : "burger-menu"}`}>
         <div className="burger-heder">
           <a className="site-header__logo-link" href="../../index.jsx">
@@ -56,11 +49,21 @@ const BurgerMenu = ({ openBurgerMenu, setOpenBurgerMenu }) => {
           </a>
         </div>
         <div className="burger-socials">
-          <ul className="burger-social-list">
-            {socials.map((item, index) => (
+          <ul className="burger-social__list">
+            {tools.map((item, index) => (
               <li className="burger-social__item" key={index}>
-                <a href={item.link} target="_blank">
-                  {item.icon}
+                <a
+                  className="burger-social__link"
+                  href={item.link}
+                  target="_blank"
+                >
+                  <img
+                    className="site-header__logo"
+                    src={item.icon}
+                    alt={item.title}
+                    width={23}
+                    height={23}
+                  />
                 </a>
               </li>
             ))}

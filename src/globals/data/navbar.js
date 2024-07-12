@@ -124,21 +124,4 @@ export const data = {
       href: "#command",
     },
   ],
-  socials: [
-    {
-      title: "Instagram",
-      link: "https://www.instagram.com",
-      icon: insta,
-    },
-    {
-      title: "Twitter",
-      link: "https://www.x.com",
-      icon: twitter,
-    },
-    {
-      title: "You Tube",
-      link: "https://www.youtube.com",
-      icon: youtube,
-    },
-  ],
 };

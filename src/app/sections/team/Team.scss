@@ -1,0 +1,43 @@
+.team-section {
+  background-color: #f4f7ff;
+  padding: 80px 0;
+}
+
+.team-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__start {
+    width: 500px;
+  }
+  &__start-title {
+    max-width: 800px;
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 800;
+    color: #1b5bf7;
+  }
+  &__start-desc {
+    margin-bottom: 26px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #464359;
+    line-height: 40px;
+    opacity: 1;
+  }
+  &__start-num {
+    display: flex;
+    margin-bottom: 4px;
+    font-size: 120px;
+    line-height: 96px;
+    font-weight: 700;
+    color: #1b5bf7;
+  }
+  &__start-text {
+    font-size: 40px;
+    line-height: 72px;
+    font-weight: 800;
+    color: #464359;
+    margin-bottom: 26px;
+  }
+}

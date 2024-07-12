@@ -24,12 +24,20 @@ function Header() {
             />
           </a>
           <Navbar />
+          <button
+            onClick={() => setOpenBurgerMenu(true)}
+            className={` ${openBurgerMenu ? "d-none" : "open-burger-btn"}`}
+          >
+            <span className="burger-open-icon"></span>
+            <span className="burger-open-icon"></span>
+            <span className="burger-open-icon"></span>
+          </button>
           {/* Modal */}
-          <BurgerMenu
-            openBurgerMenu={openBurgerMenu}
-            setOpenBurgerMenu={setOpenBurgerMenu}
-          />
         </div>
+        <BurgerMenu
+          openBurgerMenu={openBurgerMenu}
+          setOpenBurgerMenu={setOpenBurgerMenu}
+        />
       </div>
     </header>
   );

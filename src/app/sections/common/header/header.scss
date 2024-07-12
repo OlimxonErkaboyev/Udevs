@@ -183,3 +183,31 @@
 .lang {
   display: none;
 }
+
+.open-burger-btn {
+  display: none;
+}
+
+.burger-open-icon {
+  border: 2px solid $blue-color;
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .open-burger-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    gap: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+  }
+
+  .d-none {
+    display: none;
+  }
+}
