@@ -12,7 +12,6 @@ import {
   down_arrow,
   smsuz,
 } from "../../assets/images/navbar";
-import { insta, twitter, youtube } from "../../assets/images/socials";
 
 export const data = {
   navbar: [

@@ -1,0 +1,15 @@
+export { default as deleverImg } from "./develer-img.png";
+export { default as website } from "./w-design.svg";
+export { default as adminPanel } from "./admin-panel.svg";
+export { default as crossPlatform } from "./crosplatform.svg";
+export { default as wDesign } from "./w-design.svg";
+export { default as mDesign } from "./m-design.svg";
+export { default as deliveryIcon } from "./delivery.svg";
+export { default as smsImg } from "./smsuz-img.png";
+export { default as smsIcon } from "./sms.svg";
+export { default as goodzone } from "./goodzone.png";
+export { default as goodzoneImg } from "./goodzone-img.png";
+export { default as goodzoneIcon } from "./goodzone.svg";
+export { default as imanImg } from "./iman-img.png";
+export { default as imanIcon } from "./finance.svg";
+export { default as iman } from "./Iman-logo.svg";

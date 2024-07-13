@@ -2,10 +2,11 @@ import React from "react";
 import "./burger-menu.scss";
 import { data } from "/src/globals/data/navbar";
 import { HeaderLogo } from "../../../assets/images/icons";
-import { tools } from "../../../globals/data/tools";
+import { data as tools } from "../../../globals/data/tools";
 
 const BurgerMenu = ({ openBurgerMenu, setOpenBurgerMenu }) => {
   const { burger } = data;
+  const { socials } = tools;
   return (
     <>
       <div className={` ${openBurgerMenu ? "open-menu" : "burger-menu"}`}>
@@ -50,7 +51,7 @@ const BurgerMenu = ({ openBurgerMenu, setOpenBurgerMenu }) => {
         </div>
         <div className="burger-socials">
           <ul className="burger-social__list">
-            {tools.map((item, index) => (
+            {socials.map((item, index) => (
               <li className="burger-social__item" key={index}>
                 <a
                   className="burger-social__link"

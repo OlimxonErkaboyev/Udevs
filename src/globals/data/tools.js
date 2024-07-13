@@ -1,19 +1,347 @@
-import { Twitter, Instagram, Facebook } from "../../assets/images/tools";
+import {
+  Twitter,
+  Instagram,
+  Facebook,
+  Promotheus,
+  IconLoki,
+  Bitbucket,
+  IconGitlab,
+  Kotlin,
+  Android,
+  Java,
+  Azure,
+  GCP,
+  DigitalOcean,
+  AWS,
+  Kubernates,
+  ELK,
+  Grafana,
+  Terraform,
+  IOS,
+  Swift,
+  Flutter,
+  Next,
+  React,
+  Js,
+  Balsamic,
+  Invision,
+  Figma,
+  Docker,
+  PostgreSQL,
+  Python,
+  Node,
+  PHP,
+  GO,
+  AntDesign,
+  Gatsby,
+  Vue,
+  Principle,
+  Sketch,
+  AdobeSuite,
+  YouTrack,
+  Appium,
+  Cypress,
+  Jmeter,
+  MangoDB,
+  Cassandra,
+  Sass,
+  MaterialUI,
+  Zeplin,
+  Illustrator,
+  Lottie,
+  Photoshop,
+} from "../../assets/images/tools";
 
-export const tools = [
-  {
-    title: "Instagram",
-    link: "https://www.instagram.com",
-    icon: Instagram,
-  },
-  {
-    title: "Twitter",
-    link: "https://www.x.com",
-    icon: Twitter,
-  },
-  {
-    title: "Facebook",
-    link: "https://www.facebook.com",
-    icon: Facebook,
-  },
-];
+export const data = {
+  socials: [
+    {
+      title: "Instagram",
+      link: "https://www.instagram.com",
+      icon: Instagram,
+    },
+    {
+      title: "Twitter",
+      link: "https://www.x.com",
+      icon: Twitter,
+    },
+    {
+      title: "Facebook",
+      link: "https://www.facebook.com",
+      icon: Facebook,
+    },
+  ],
+  categories: [
+    {
+      name: "frontend",
+      label: "Frontend",
+    },
+    {
+      name: "backend",
+      label: "Backend",
+    },
+    {
+      name: "devops",
+      label: "Devops",
+    },
+    {
+      name: "testing",
+      label: "Testing",
+    },
+    {
+      name: "ux_ui",
+      label: "UX/UI",
+    },
+    {
+      name: "infrastructure",
+      label: "Infrastructure",
+    },
+    {
+      name: "mobile",
+      label: "Mobile",
+    },
+  ],
+
+  tools: [
+    {
+      title: "Promotheus",
+      icon: Promotheus,
+      category: "devops",
+    },
+    {
+      title: "Loki",
+      icon: IconLoki,
+      category: "devops",
+    },
+    {
+      title: "Bitbucket",
+      icon: Bitbucket,
+      category: "devops",
+    },
+    {
+      title: "GitLab",
+      icon: IconGitlab,
+      category: "devops",
+    },
+    {
+      title: "Kotlin",
+      icon: Kotlin,
+      category: "mobile",
+    },
+    {
+      title: "Android",
+      icon: Android,
+      category: "mobile",
+    },
+    {
+      title: "Java",
+      icon: Java,
+      category: "mobile",
+    },
+    {
+      title: "Azure",
+      icon: Azure,
+      category: "infrastructure",
+    },
+    {
+      title: "GCP",
+      icon: GCP,
+      category: "infrastructure",
+    },
+    {
+      title: "Digital Ocean",
+      icon: DigitalOcean,
+      category: "infrastructure",
+    },
+    {
+      title: "AWS",
+      icon: AWS,
+      category: "infrastructure",
+    },
+    {
+      title: "Kubernetes",
+      icon: Kubernates,
+      category: "infrastructure",
+    },
+    {
+      title: "ELK",
+      icon: ELK,
+      category: "devops",
+    },
+    {
+      title: "Grafana",
+      icon: Grafana,
+      category: "devops",
+    },
+    {
+      title: "Terraform",
+      icon: Terraform,
+      category: "devops",
+    },
+    {
+      title: "IOS",
+      icon: IOS,
+      category: "mobile",
+    },
+    {
+      title: "Swift",
+      icon: Swift,
+      category: "mobile",
+    },
+    {
+      title: "Flutter",
+      icon: Flutter,
+      category: "mobile",
+    },
+    {
+      title: "Next.JS",
+      icon: Next,
+      category: "frontend",
+    },
+    {
+      title: "React.JS",
+      icon: React,
+      category: "frontend",
+    },
+    {
+      title: "Javascript",
+      icon: Js,
+      category: "frontend",
+    },
+
+    {
+      title: "Balsamic",
+      icon: Balsamic,
+      category: "ux_ui",
+    },
+    {
+      title: "Invision",
+      icon: Invision,
+      category: "ux_ui",
+    },
+    {
+      title: "Figma",
+      icon: Figma,
+      category: "ux_ui",
+    },
+    {
+      title: "Docker",
+      icon: Docker,
+      category: "devops",
+    },
+    {
+      title: "PostgreSQL",
+      icon: PostgreSQL,
+      category: "backend",
+    },
+    {
+      title: "Python",
+      icon: Python,
+      category: "backend",
+    },
+    {
+      title: "Node.JS",
+      icon: Node,
+      category: "backend",
+    },
+    {
+      title: "PHP",
+      icon: PHP,
+      category: "backend",
+    },
+    {
+      title: "GO",
+      icon: GO,
+      category: "backend",
+    },
+    {
+      title: "Ant Design",
+      icon: AntDesign,
+      category: "frontend",
+    },
+    {
+      title: "Getsby.JS",
+      icon: Gatsby,
+      category: "frontend",
+    },
+    {
+      title: "Vue.JS",
+      icon: Vue,
+      category: "frontend",
+    },
+    {
+      title: "Principle",
+      icon: Principle,
+      category: "ux_ui",
+    },
+    {
+      title: "Sketch",
+      icon: Sketch,
+      category: "ux_ui",
+    },
+    {
+      title: "Adobe suite",
+      icon: AdobeSuite,
+      category: "ux_ui",
+    },
+    {
+      title: "YouTrack",
+      icon: YouTrack,
+      category: "testing",
+    },
+    {
+      title: "Appium",
+      icon: Appium,
+      category: "testing",
+    },
+    {
+      title: "Cypress",
+      icon: Cypress,
+      category: "testing",
+    },
+    {
+      title: "Jmeter",
+      icon: Jmeter,
+      category: "testing",
+    },
+    {
+      title: "MongoDB",
+      icon: MangoDB,
+      category: "backend",
+    },
+    {
+      title: "Cassandra",
+      icon: Cassandra,
+      category: "backend",
+    },
+    {
+      title: "Sass",
+      icon: Sass,
+      category: "frontend",
+    },
+    {
+      title: "Material UI",
+      icon: MaterialUI,
+      category: "frontend",
+    },
+    {
+      title: "Zeplin",
+      icon: Zeplin,
+      category: "ux_ui",
+    },
+    {
+      title: "Illustrator",
+      icon: Illustrator,
+      category: "ux_ui",
+    },
+    {
+      title: "Lottie",
+      icon: Lottie,
+      category: "ux_ui",
+    },
+    {
+      title: "Photoshop",
+      icon: Photoshop,
+      category: "ux_ui",
+    },
+  ],
+};

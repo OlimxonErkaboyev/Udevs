@@ -1,0 +1,7 @@
+export {default as arxitecture} from './arxitekture.svg'
+export {default as autoTesting} from './auto-testing.svg'
+export {default as sTesting} from './stress-testing.svg'
+export {default as lTesting} from './load-testing.svg'
+export {default as devops} from './devops.svg'
+export {default as cloud} from './cloud.svg'
+export {default as cicd} from './ci-cd.svg'

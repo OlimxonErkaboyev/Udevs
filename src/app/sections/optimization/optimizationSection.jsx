@@ -1,6 +1,6 @@
-import "./SystemsSection.scss";
+import "./optimizationSection.scss";
 import { systemImg } from "../../../assets/images/systems";
-import { data } from "../../../globals/data/systemsData";
+import { data } from "../../../globals/data/optimization";
 
 function OptimizationSection() {
   return (
@@ -11,7 +11,7 @@ function OptimizationSection() {
       data-aos-duration="500"
     >
       <div className="container">
-        <h2 className="system-title">ERP systems</h2>
+        <h2 className="system-title">Optimization Infrastructure</h2>
         <div className="system-wrapper">
           <div
             className="system-wrapper__start"
@@ -30,7 +30,8 @@ function OptimizationSection() {
               data-aos="fade-up"
               data-aos-duration="500"
             >
-              IT Systems of any level of complexity at a convenient time for you
+              Our experienced professionals will help you optimize your
+              infrastructure
             </p>
             <ul
               className="system-wrapper__end-list"

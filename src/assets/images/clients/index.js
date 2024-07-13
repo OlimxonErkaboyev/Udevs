@@ -1,0 +1,13 @@
+export { default as hoshimov } from "./hoshimov.svg";
+export { default as akfa } from "./akfa-medline.svg";
+export { default as delever } from "./delever-icon.svg";
+export { default as fanon } from "./fanon-icon.svg";
+export { default as goodzone } from "./goodzone.svg";
+export { default as hamkorbank } from "./hamkorbank.svg";
+export { default as myTrack } from "./maxtrack.svg";
+export { default as myTaxi } from "./my-taxi.svg";
+export { default as shef } from "./shef.svg";
+export { default as iman } from "./iman-icon.svg";
+export { default as workly } from "./workly.svg";
+export { default as z } from "./z.svg";
+export { default as sms } from "./smsuz.svg";
