@@ -29,7 +29,7 @@ const ProjectMobile = ({ data }) => {
   return (
     <section
       className="mobile__project-section"
-      id="develer"
+      id={data.path}
       data-aos="fade-up"
       data-aos-duration="500"
     >

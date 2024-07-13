@@ -27,7 +27,7 @@ const ProjectDesktop = ({ data }) => {
   return (
     <section
       className="project-section"
-      id="develer"
+      id={data.path}
       data-aos="fade-up"
       data-aos-duration="500"
     >

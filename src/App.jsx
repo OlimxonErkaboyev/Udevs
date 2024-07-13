@@ -14,6 +14,7 @@ function App() {
   setTimeout(() => {
     setIsLoading(false);
   }, 500);
+
   return (
     <>
       {isLoading && <Loader />}

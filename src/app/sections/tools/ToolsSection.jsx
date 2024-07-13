@@ -24,15 +24,15 @@ function Tools() {
           <h2 className="tools-wrapper__title">Tools</h2>
           <ul className="tools-wrapper__check-list">
             {categories.map((item, id) => (
-              <li
-                key={id}
-                onClick={() => changeCategory(item.name, category)}
-                className={`tools-wrapper__check-list-item   ${
-                  item.name === category && isChecked ? "active" : ""
-                }`}
-              >
-                <span className="circle-indicator"></span>
-                <p className="tools-wrapper__category">{item.label}</p>
+              <li key={id} className="tools-wrapper__check-list-item">
+                <p
+                  className={`tools-wrapper__category  ${
+                    item.name === category && isChecked ? "active" : ""
+                  }`}
+                  onClick={() => changeCategory(item.name, category)}
+                >
+                  {item.label}
+                </p>
               </li>
             ))}
           </ul>

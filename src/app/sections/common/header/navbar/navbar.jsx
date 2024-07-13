@@ -1,15 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import { data } from "../../../../../globals/data/navbar";
 
 const Navbar = () => {
   const { navbar } = data;
+  const [activeIndex, setActiveIndex] = useState(null);
+
+  const handleItemClick = (index) => {
+    setActiveIndex(index);
+  };
   return (
     <>
       <nav className="site-header__navbar">
         <ul className="site-header__navbar-list">
           {navbar.map((nav, index) =>
             !nav.options ? (
-              <li key={index} className="site-header__navbar-item">
+              <li
+                key={index}
+                className={`site-header__navbar-item ${
+                  activeIndex === index ? "active" : ""
+                }`}
+                onClick={() => handleItemClick(index)}
+              >
                 <a className="site-header__navbar-link" href={nav.href}>
                   {nav.title}
                 </a>

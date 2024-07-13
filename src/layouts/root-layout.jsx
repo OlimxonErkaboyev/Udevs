@@ -2,18 +2,14 @@ import { useLocation } from "react-router-dom";
 import Header from "../app/sections/common/header/header";
 import AppRoutes from "../routing/app-routes";
 import "../index.scss";
+import Footer from "../app/sections/common/footer/footer";
 
 export default function RootLayout() {
   const currentpath = useLocation().pathname;
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
+
   return (
     <>
-      <div className="page-wraper">
+      <div className="page-wrapper">
         {!currentpath?.startsWith("/error") && <Header />}
 
         {/* CONTENT START */}
@@ -22,12 +18,7 @@ export default function RootLayout() {
         </div>
         {/* CONTENT END */}
 
-        {/* {!currentpath?.startsWith("/error") && <Footer />} */}
-
-        {/* BUTTON TOP START */}
-        <button className="scroltop" onClick={scrollToTop}>
-          <span onClick={scrollToTop}>top</span>
-        </button>
+        {!currentpath?.startsWith("/error") && <Footer />}
       </div>
     </>
   );

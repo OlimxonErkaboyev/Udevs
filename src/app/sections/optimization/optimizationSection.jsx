@@ -6,7 +6,7 @@ function OptimizationSection() {
   return (
     <section
       className="system-section"
-      id="system"
+      id="optimization"
       data-aos="fade-up"
       data-aos-duration="500"
     >

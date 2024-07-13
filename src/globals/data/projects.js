@@ -19,6 +19,7 @@ import {
 export const data = [
   {
     title: "Delever",
+    path: "delever",
     color_title: "#ff5722",
     badge_icon: { img: deliveryIcon, title: "Delevery", bg: "#ff572233" },
     description:
@@ -51,6 +52,7 @@ export const data = [
 
   {
     title: "Smsuz.uz",
+    path: "smsuz",
     color_title: "#1B5BF7",
     badge_icon: { img: smsIcon, title: "Notification", bg: "#DAE3FA" },
     description: "Smsuz.uz - It is a platform for bulk SMS messaging.",
@@ -74,6 +76,7 @@ export const data = [
   },
   {
     title: { img: goodzone, isString: true },
+    path: "goodzone",
     color_title: "#F50000",
     badge_icon: { img: goodzoneIcon, title: "E-Commerce", bg: "#FDCCCC" },
     description:
@@ -105,6 +108,7 @@ export const data = [
   },
   {
     title: { img: iman, isString: true },
+    path: "iman",
     color_title: "#01CAB0",
     badge_icon: { img: imanIcon, title: "Finance", bg: "#CCF4EF" },
     description:

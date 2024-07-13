@@ -112,7 +112,8 @@
 }
 
 .submit-button {
-  width: 262px;
+  max-width: 262px;
+  width: 100%;
   background-color: #1b5bf7;
   color: #fff;
   padding: 10px 20px;

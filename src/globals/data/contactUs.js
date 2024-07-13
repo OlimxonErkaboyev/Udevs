@@ -1,13 +1,4 @@
-import {
-  call,
-  facebook,
-  instagram,
-  location,
-  mail,
-  telegram,
-  twitter,
-  youtube,
-} from "../../assets/images/contactUs";
+import { call, location, mail } from "../../assets/images/contactUs";
 
 export const data = {
   address: [

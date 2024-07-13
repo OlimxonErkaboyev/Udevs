@@ -14,7 +14,7 @@ function Header() {
           data-aos="fade-down"
           data-aos-duration="500"
         >
-          <a className="site-header__logo-link" href="/">
+          <a className="site-header__logo-link" href="#">
             <img
               className="site-header__logo"
               src={HeaderLogo}
@@ -32,8 +32,8 @@ function Header() {
             <span className="burger-open-icon"></span>
             <span className="burger-open-icon"></span>
           </button>
-          {/* Modal */}
         </div>
+        {/* Modal */}
         <BurgerMenu
           openBurgerMenu={openBurgerMenu}
           setOpenBurgerMenu={setOpenBurgerMenu}
