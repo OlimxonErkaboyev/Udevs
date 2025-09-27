@@ -1,3 +1,4 @@
+// import { API_URL } from '../../../config'
 import { API_URL } from '../../../config'
 import useFetch from '../../../hooks/useFetch'
 import './servicesSection.scss'
@@ -8,8 +9,6 @@ function ServicesSection() {
 	)
 	if (isLoading) <div>Loading...</div>
 	if (isError) <div>Error .(</div>
-
-	console.log(data)
 
 	return (
 		<section className='services' id='direction'>
@@ -29,7 +28,7 @@ function ServicesSection() {
 					>
 						{data.map((service, index) => (
 							<li className='services-card__item' key={index}>
-								<img src={`${service.icon.url}`} alt={service.title} />
+								<img src={service?.icon?.url} alt={service.title} />
 								<p className='services-card__title'>{service.title}</p>
 							</li>
 						))}
